@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients
-@EntityScan(basePackages = {"com.myBroker.dio.model"})
+@EntityScan(basePackages = {"com.myBroker.dio.entity"})
 @SpringBootApplication
 public class MyBrokerApplication {
 
